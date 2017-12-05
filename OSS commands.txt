@@ -1,0 +1,81 @@
+﻿OSS final
+Note: Use play-with-docker for pulling the docker images faster!!
+1. Redmine
+        docker pull redmine
+docker pull mysql
+docker run -d --name some-mysql -e MYSQL_ROOT_PASSWORD=it -e MYSQL_DATABASE=redmineDB mysql
+docker run -d --name some-redmine --link some-mysql:mysql -p 8090:80 redmine
+2. Wordpress
+docker pull wordpress
+docker pull mysql
+docker run -d --name some-mysql -e MYSQL_ROOT_PASSWORD=it -e MYSQL_DATABASE=wordpressDB mysql
+docker run --name some-wordpress --link some-mysql:mysql -p 8080:80 -d wordpress
+3. Orangescrum
+docker pull orangescrum/official
+docker run -it -p 8080:80 --name=orangescrum orangescrum/official /bin/bash
+sh start.sh
+4. FTP
+sudo apt-get install vsftpd
+sudo gedit /etc/vsftpd.conf
+#edit the config file change YES to NO
+#change the banner to “your name”
+systemctl restart vsftpd
+ftp localhost
+        #login with pc’s login and password
+ifconfig to check ip
+#try to connect ftp from other devices connected to LAN
+
+
+5. Debian Package
+https://linuxconfig.org/easy-way-to-create-a-debian-package-and-local-package-repository
+
+
+# instead of uploading it on internet copy the path of .deb package locally and use the command
+
+
+sudo apt-get install “path to .deb file”
+
+
+
+
+6. Git
+        https://git-scm.com/book/en/v2/Getting-Started-Git-Basics
+
+
+        https://try.github.io/levels/1/challenges/1
+
+
+7. Kernel compilation
+        http://www.thegeekstuff.com/2013/06/compile-linux-kernel/
+
+
+Download latest kernel version:
+        cd /usr/src/
+        wget https://www.kernel.org/pub/linux/kernel/v3.x/linux-3.9.3.tar.xz
+Extract:
+        tar -xvJf linux-3.9.3.tar.xz
+Configure the Kernel:
+        cd linux-3.9.3
+        make menuconfig
+Compile the Linux Kernel:
+        make
+        make modules
+        make modules_install
+Install the New Kernel:
+        make install
+Boot Linux to the new Kernel:
+        reboot
+        uname -r
+
+
+8. Docker
+To build your own image of simple python flask application printing “Hello”        
+
+
+https://github.com/docker/labs/blob/master/beginner/chapters/webapps.md#231-create-a-python-flask-app-that-displays-random-cat-pix
+
+
+# modify the flask app just to print “Hello World”
+        
+9. Comprehend the OSS development
+        *???😅

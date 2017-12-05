@@ -1,0 +1,107 @@
+LINUX DISTRIBUTIONS:
+
+1)Ubuntu
+
+-Ubuntu is probably the most well-known Linux distribution.
+-Ubuntu is based on Debian, but it has its own software repositories.
+-Ubuntu is the most popular choice both for Linux desktops and servers. The popularity of the distro and the active community make it easy to find a solution to any Ubuntu-related issue. 
+-Ubuntu used to use the GNOME 2 desktop environment.
+- It offers releases every six months, with a more stable LTS (long term support) release every two years.
+
+2)Linux Mint
+
+-Linux Mint is a distribution build on top of ubuntu.
+-Originally, Mint was an alternative distribution loved mainly because it included media codecs and proprietary software that Ubuntu didn’t include by default.
+-Linux Mint is a popular choice for a desktop Linux distro that offers a wide range of customization options and an easy to use user interface.
+-This distribution now has its own identity. You won’t find Ubuntu’s own Unity desktop here — instead, you get a more traditional Cinnamon or MATE desktop.
+
+3)Debian
+
+-Debian is unix-like computer operating system that is entirely composed of free software.
+-Debian has access to online repositories that contain over 50,000 software packages[9] making it the largest software compilation.
+- Debian officially contains only free software, but non-free software can be downloaded and installed from the Debian repositories.
+-Debian is a popular choice for web servers.
+
+4)Fedora
+
+-Fedora is a Unix-like operating system based on the Linux kernel and GNU programs (a Linux distribution), developed by the community-supported Fedora Project and sponsored by the Red Hat company.
+- Fedora contains software distributed under various free and open-source licenses and aims to be on the leading edge of such technologies.
+-Fedora is the upstream source of the commercial Red Hat Enterprise Linux distribution.
+-Since the release of Fedora 21, three different editions are available: Workstation, focused on the personal computer, Server and Cloud for servers, and Atomic being the edition meant for cloud computing.
+-Fedora has a reputation for focusing on innovation, integrating new technologies early on and working closely with upstream Linux communities.
+-The default desktop environment in Fedora is GNOME and the default user interface is the GNOME Shell.
+-Fedora uses the RPM package management system
+
+5)CentOS
+
+-CentOS is a Linux distribution that attempts to provide a free, enterprise-class, community-supported computing platform functionally compatible with its upstream source, Red Hat Enterprise Linux.
+
+6)Kali Linux
+
+-Kali Linux is a Debian-derived Linux distribution designed for digital forensics and penetration testing. 
+
+
+**********************************OPEN PROJECT MANAGEMENT TOOL*****************************************************
+-Project management tools are aids to assist an individual or team to effectively organize work and manage projects and tasks.
+
+## Features
+
+-Planning/scheduling –  Project management tools allow you to plan and delegate work all in one place with tasks, subtasks, folders, templates, 				workflows, and calendars.
+-Collaboration – 	Email is no longer the only form of communication. Use project management tools to assign tasks, add comments, organize 			 dashboards, and for proofing & approvals.
+-Documentation – 	Avoid missing files with file management features: editing, versioning, & storage of all files.
+-Evaluation –		Track and assess productivity and growth through resource management & reporting
+
+OpenProject->
+
+-OpenProject is a web-based project management system for location-independent team collaboration.
+
+****************************************Bug Tracking System ****************************************************************
+
+-A bug tracking system or defect tracking system is a software application that keeps track of reported software bugs in software development projects. It may be regarded as a type of issue tracking system.
+
+*********************************************Version control System***********************************************
+-A component of software configuration management, version control, also known as revision control or source control, is the management of changes to documents, computer programs, large web sites, and other collections of information. 
+-Changes are usually identified by a number or letter code, termed the "revision number", "revision level", or simply "revision". For example, an initial set of files is "revision 1". When the first change is made, the resulting set is "revision 2", and so on. 
+-Each revision is associated with a timestamp and the person making the change. Revisions can be compared, restored, and with some types of files, merged.
+
+Git->
+
+-Git is a version control system for tracking changes in computer files and coordinating work on those files among multiple people.
+-It is primarily used for source code management in software development,but it can be used to keep track of changes in any set of files.
+
+Basic git commands:
+
+Commands      
+                                                           what?
+
+-git config --global user.name "Sam Smith"                     Tell Git who you are
+-git config --global user.email sam@example.com
+
+-git init                                             		Create a new local repository
+
+-git clone /path/to/reposito                                  Create a working copy of a local repository:
+
+-git add <filename>                                         Add files
+-git add *
+
+-git commit -m "Commit message"					commit
+
+-git push origin master					Send changes to the master branch of your remote repository
+
+-git status						List the files you've changed and those you still need to add or commit
+
+-git remote add origin <server>				Connect to a remote repository
+
+-git pull						Fetch and merge changes on the remote server to your working directory
+
+
+****************************************************CMS SOFTWARE*********************************************************
+
+-A content management system (CMS) is a computer application that allows publishing, editing and modifying content, organizing, deleting as well as maintenance from a central interface.
+-CMSs are often used to run websites containing blogs, news, and shopping.
+
+Wordpress:
+
+-WordPress is a free and open source blogging tool and a content management system (CMS) based on PHP and MySQL.
+-Features include a plugin architecture and a template system
+-WordPress is the most popular blogging system in use on the Web, at more than 60 million websites

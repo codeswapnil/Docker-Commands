@@ -1,0 +1,14 @@
+Docker Wordpress
+
+pull wordpress- 
+sudo docker pull wordpress
+
+pull mysql
+sudo docker pull mysql
+
+
+command:
+sudo docker run --name mysql -e MYSQL_ROOT_PASSWORD=wce -d mysql
+sudo docker run --name some-app3 --link mysql:mysql -d -p8090:80 wordpress
+
+
